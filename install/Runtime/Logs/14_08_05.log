@@ -1,0 +1,92 @@
+[ 2014-08-05T17:49:16+08:00 ] 0.0.0.0 /install.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002761s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045569s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001681s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002710s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001568s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008186s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001945s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002127s ]
+
+[ 2014-08-05T17:49:30+08:00 ] 0.0.0.0 /install.php?m=index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+NOTIC: 建议使用I方法替代_post
+
+[ 2014-08-05T17:49:30+08:00 ] 0.0.0.0 /install.php?m=index&a=check
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in D:\1788\install\Lib\Action\indexAction.class.php on line 70 and defined D:\1788\install\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path D:\1788\install\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path D:\1788\install\Lib\ORG\Dir.class.php 第 39 行.
+
+[ 2014-08-05T17:49:30+08:00 ] 0.0.0.0 /install.php?m=index&a=setconf
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001832s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027495s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001509s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002529s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001182s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007257s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004932s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005066s ]
+
+[ 2014-08-05T17:50:23+08:00 ] 0.0.0.0 /install.php?m=index&a=setconf
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+
+[ 2014-08-05T17:50:24+08:00 ] 0.0.0.0 /install.php?m=index&a=install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062393s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001165s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001050s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000811s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004465s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001358s ]
+
+[ 2014-08-05T17:50:26+08:00 ] 0.0.0.0 /install.php?m=index&a=finish_done
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+
+[ 2014-08-05T17:50:30+08:00 ] 0.0.0.0 /install.php?m=index&a=finish
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001732s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019585s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001143s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001169s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001012s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005204s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001504s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001633s ]
+

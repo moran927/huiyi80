@@ -1,0 +1,1 @@
+<?php	return array ( 'db_host' => 'localhost', 'db_port' => '3306', 'db_user' => 'root', 'db_pass' => 'wqc', 'db_name' => 'haochiao', 'db_prefix' => 'ftxia_', 'admin_user' => 'admin888', 'admin_pass' => 'admin888', 'admin_pass_confirm' => 'admin888', 'admin_email' => 'admin@qq.com', );?>

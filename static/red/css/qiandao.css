@@ -1,0 +1,136 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/* 全局CSS定义 */
+
+.area{zoom:1}
+.area{width:100%;margin:0 auto;}
+.area:after{content:".";display:block;visibility:hidden;height:0;clear:both;}
+
+.l{display:inline;float:left;}
+.r{float:right;}
+.area{width:980px;}/*页面属性 */
+
+#head_nav{width:100%; background:#cf201c; height:35px;line-height:34px;}
+/*#head_nav .area{height:35px;}*/
+.head_nav .l{position: relative;text-align:center}
+.head_nav .l a{width:88px;float:left;height:35px;overflow: hidden;position:relative;}
+.head_nav .l a i,i.line{position:absolute;height:17px;right:0;top:50%;margin-top:-8px;_line-height:0;}
+.head_nav .l a.first{border-left:1px solid #d7412c;}
+.head_nav .l a.on i{display:none}
+.head_nav .l a i{color: #bb120f;border-right: 1px solid #bb120f;}
+.on i.line,.open i.line{display: none;}
+.head_nav .l a.on,.head_nav .l a.on:hover,.head_nav .r_con a.on,.head_nav .r_con a.on:hover{background: #bb120f;color:#FFF;font-weight:bold;}
+.head_nav .l a:hover{background: #bb120f;}
+.head_nav .l a,.head_nav .r a{color:#fff;font:14px/35px "";}
+.head_nav .l a{ text-decoration:none;}
+
+.head_nav .r_con{float:right;color:#9a0c0a;font-size:0;_width:320px;position: relative;*z-index: 999;height: 35px;}
+.head_nav .r_con a,.head_nav .r_con {color:#fff;padding:0 15px 0 0;_border-right: none;_zoom:1;}
+.head_nav .r_con{position:relative;padding-right: 0px;}
+.head_nav .r_con .open{_height:26px;}
+.head_nav .r_con .yg_wrap{float:left;position: relative;display: inline-block;_float: left;overflow: hidden;height: 34px;}
+.head_nav .r_con .yg{padding-right: 15px;padding-right:5px\9;padding-left: 15px;*height: 35px;*line-height: 36px;overflow: hidden;}
+.head_nav .r_con a:hover{text-decoration: none;color: white;}
+.head_nav .r_con .zhe_intro,.sign_panel{float: left;}
+.head_nav .r_con .zhe_intro,.head_nav .r_con .sign_panel{_height: 25px;_padding-top: 9px;}
+.head_nav .r_con .zhe_intro .line_left{_line-height:0;position: absolute;left: 0px;top: 50%;height: 17px;_height: 17px;border-left: solid 1px #bb120f;margin-top: -8px;}
+.head_nav .r_con .zhe_intro .trigger{padding-left: 25px;position: relative;}
+.head_nav .r_con .zhe_intro {padding-left: 0px}
+.head_nav .r_con a.on{display: inline-block;*display: inline;*zoom:1;height: 35px;}
+
+
+.head_nav .r_con .tooltip{right: 0;top: -65px}
+.head_nav .r_con .tooltip a{padding: 0;color:#09c;border: none;position: static;}
+.head_nav .r_con .tooltip .tooltip-arrow{left: auto;right: 30px}
+.head_nav .r_con{font-size:14px}
+.head_nav .r_con .signin{border-right:0;padding:0 15px 0 15px}
+.head_nav .r_con .signin i{width:16px;height:16px;display:inline-block;*display:inline;*zoom:1;background:url(../images/zhe800/icon_head.png) no-repeat -40px -20px;vertical-align:text-top;*vertical-align:middle;margin-right:4px;_background-image:url(../images/zhe800/icon_head.png);}
+.head_nav .r_con .signin i.icon-mini{background-position: -30px 0 !important;width: 11px;height: 11px;right: 10px;margin: 0;_top:5px;}
+.head_nav .r_con a.signin:hover i{background-position:0px -20px;}
+.head_nav .r_con .signin_on .signin i,.head_nav .r_con .signin_on a.signin:hover i{background-position:-20px -20px;}
+.head_nav .r_con .zhe_notice{display:inline-block;*display:inline;*zoom:1;}
+.head_nav .r_con .zhe_notice.active{color:#e02f2f;font-weight:bold;background:#fff;}
+.head_nav .r_con .zhe_intro .trigger{text-decoration: none;_border-right: none;}
+.head_nav .r_con .zhe_intro .open .trigger{color:#FFF;border-color:transparent;}
+.head_nav .r_con .zhe_intro .icon-arrow{display:inline-block;*display:inline;*zoom:1;height:0;line-height: 0;width:0;vertical-align:middle;border-width:3px;border-style:solid;margin-left:3px;border-color:#eca6a4 #cf201c #cf201c #cf201c;_overflow:hidden;}
+.head_nav .r_con .open .icon-arrow{display:inline-block;*display:inline;*zoom:1;height:0;line-height: 0;width:0;vertical-align:middle;border-width:3px;border-style:solid;margin-left:3px;border-color:#eca6a4 #bb120f #bb120f #bb120f;_overflow:hidden;}
+.head_nav .r_con .open{color:#FFF;background:#bb120f;border-bottom:none;*z-index:999;}
+.head_nav .r_con .dropdown .arrow-down{-webkit-transition:-webkit-transform ease .3s;-moz-transition:-moz-transform ease .3s;-webkit-transform-origin:3px 1.5px;-moz-transform-origin:3px 1.5px;}
+.head_nav .r_con .dropdown{border-top:none;border-bottom: none;}
+
+.head_nav .r_con .dropdown-menu li a{color:#333;padding:0 0 0 25px;border-right:none;font-size:12px;}
+
+.head_nav .r_con .dropdown-menu a{border-right:none;}
+.head_nav .r_con .dropdown-menu a:hover{_color: #333;}
+/*修改签到样式，已签状态下父级样式名sign_panel替换为sign_board*/
+.dropdown.sign_panel,.dropdown.sign_board{border:none;background:none;*z-index:999;}
+
+.sign_panel .dropdown-menu{font:12px/20px "";color:#666;width:190px;left:auto;right:0;}
+.sign_panel .dropdown-menu:hover{font:12px/20px "";color:#666;width:190px;left:auto;right:0;display:block;}
+.sign_panel .dropdown-menu b{color:#e02f2f}
+.sign_panel .dropdown-menu .gotuan{margin-top:10px;padding-top:10px;border-top: 1px dotted #999999; }
+
+.head_nav .r_con .sign_panel{height: 34px;width: 143px;}
+.head_nav .r_con .sign_panel a.signin{width: 100%;height: 100%;display: block;background: url(../images/zhe800/sign.jpg) no-repeat 0 0;}
+.head_nav .r_con .sign_panel a.signin:hover{background-position: 0 -35px;}
+.head_nav .r_con .sign_board{height: 34px;width: 143px;}
+.head_nav .r_con .sign_board a.signin{width: 100%;height: 100%;display: block;background: url(../images/zhe800/sign.jpg) no-repeat 0 -70px;padding: 0;}
+.head_nav .r_con .sign_panel dl a{color:#1b80a9;font-size:12px;padding:0}
+.head_nav .r_con .sign_panel dl a:hover{color:#ff6000;}
+.sign_panel dl dt,.sign_panel dl dd{padding:10px 0;}
+.sign_panel dl dd{background:#f0f0f0;padding:10px;color:#cccccc}
+.sign_panel dl dt{text-align:center;}
+.sign_panel dl dd span{color:#666;}
+.sign_panel dl dd .addQQ{color:#666;margin-top: 6px;}
+.sign_panel dl dd .addQQ span{color:#e02f2f;font-weight: bold;}
+.sign_panel.open .signin:hover{_color: #fff;}
+.head_nav .r_con .signin{white-space: nowrap;}
+.sign_panel .dropdown-menu,.sign_board .dropdown-menu{border-color: #c11713;}
+.sign_board .dropdown-menu{width: 455px;padding: 20px 25px;right: 0;left: auto;color: #666;}
+.sign_board .hd{font: 12px/25px "宋体";margin-bottom: 10px;}
+.sign_board .hd b{font-size: 14px;vertical-align: top}
+.sign_board .hd span{color: #e20000;margin: 0 12px 0 5px}
+.head_nav .r_con .sign_board .dropdown-menu a{color: #1b80a9;}
+.sign_board{_height:26px;_padding-top:12px;}
+.sign_board .dropdown-menu a:hover{color: #FF6000 !important;}
+.sign_board .bd{padding-bottom:20px;background: url(../images/zhe800/qd_border.png) repeat-x 0 100%;}
+.sign_board .side{float: right;margin-left: 12px;width: 225px;_margin-left:5px;}
+.sign_board .bd .article{background: url(../images/zhe800/calendar.png) no-repeat;width: 218px;}
+.sign_board .bd .side{height: 220px;}
+.sign_board .calendar{line-height: 26px;width: 100%;text-align: center;font-family:microsoft yahei;border-collapse: collapse;border-spacing: 0;border: 1px solid #c2c2c2;border-top: none;}
+.sign_board .calendar th{line-height: 28px;color: #cf201c;font-weight: normal;}
+.sign_board .calendar td,.sign_board .calendar th{padding: 0;}
+.sign_board .calendar td{border: 1px solid #c2c2c2;font: 14px/26px Arial}
+.sign_board .calendar td.disable{color: #c8c8c8;}
+.sign_board .calendar td.on{background-color:#ff9daa;color: #fff;}
+.sign_board .bd .article .tit{line-height: 30px; text-align: center;color: #fff;}
+/*解决逛页面样式冲突*/
+.sign_board .bd .article .tit,.sign_board .bd .side .tit{width: auto;margin-bottom: 0;border: none;}
+
+.sign_board .bd .side .tit{font: 14px/30px "宋体";color: #e20000;padding-left: 30px;background: url(../images/zhe800/icon_heart.png) no-repeat 10px 8px #fef096;_background-image: url(../images/zhe800/icon_heart.png);}
+.sign_board .bd .side .con{border: 1px solid #fef096; border-top: none;height: 160px;background:#fdfaec;padding: 30px 10px 0;position: relative;font: 12px/20px "宋体";}
+.sign_board .bd .side .con h3{color: #333;}
+.sign_board .bd .side .con p{color: #999;margin-top: 10px;}
+.sign_board .bd .side .con i.icon_ft{background: url(../images/zhe800/qd_ft.png);position: absolute;right: -1px;bottom: -1px;width: 27px;height: 28px;_bottom:-2px;_right:-2px;}
+.sign_board .ft{padding-top: 15px;font:12px/22px "宋体";}
+.sign_board .ft .article{white-space: nowrap;}
+.sign_board .ft .side{width:195px;}
+.sign_board .ft h3{font-weight: bold;}
+.sign_board .ft em{color: #e20000;font-family: arial;}
+.sign_board .ft b{font:bold 14px/22px Arial;}
+
+.head_nav .r_con a .icon-mini{top:4px;right:5px;top: 1px\9;right:2px\9;}
+.head_nav .r_con a.on .icon-mini{top: 5px;right: 6px;top: 1px\9;right:1px\9;}
+.head_nav .r_con a.on{*background: #bb120f;}
+
+.head_nav .r{text-align:left;padding-right:80px;position: relative;z-index: 10000;}
+.head_nav .r a.on{color:#ffd696}
+.head_nav .r a{margin:0 10px;display:inline-block;}
+.head_nav .r a.alink{margin-left:110px;}
+.head_nav .r em{width:2px;font:0/0 ""; height:40px; background:url(../images/zhe800/tao_20125.16bg2.png) -239px -63px no-repeat; display:inline-block; vertical-align:top}
+.head_nav .r i{width:14px; height:38px; background:url(../images/zhe800/tao_20125.16bg2.png) -241px -63px no-repeat; float:left;margin-right:10px}
+.head_nav .r i.i1{ background-position:-241px -63px}
+.head_nav .r i.i2{ background-position:-256px -63px}
+.head_nav .l .zhibg{width:36px;height:15px;display:inline-block;background:url(../images/zhe800/top_icon_2.png);_background:url(../images/zhe800/top_icon_2.png);position: absolute;top:0;left: 205px;}
+.head_nav .l span.n{display: none;width: 13px;height: 11px;position: absolute;left:276px;top:10px;background: url(../images/zhe800/icon.png) no-repeat -92px 0;overflow: hidden;}
+

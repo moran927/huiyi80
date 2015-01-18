@@ -1,0 +1,293 @@
+[ 2014-10-05T15:10:41+08:00 ] 127.0.0.1 /install.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002280s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033988s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001675s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002072s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001411s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007231s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002392s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002525s ]
+
+[ 2014-10-05T15:10:44+08:00 ] 127.0.0.1 /install.php?m=index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002441s ]
+NOTIC: 建议使用I方法替代_post
+
+[ 2014-10-05T15:10:44+08:00 ] 127.0.0.1 /install.php?m=index&a=check
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in D:\php\htdocs\install\Lib\Action\indexAction.class.php on line 70 and defined D:\php\htdocs\install\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path D:\php\htdocs\install\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path D:\php\htdocs\install\Lib\ORG\Dir.class.php 第 39 行.
+
+[ 2014-10-05T15:10:44+08:00 ] 127.0.0.1 /install.php?m=index&a=setconf
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037878s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003239s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004219s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002606s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013646s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007355s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007488s ]
+
+[ 2014-10-05T15:11:17+08:00 ] 127.0.0.1 /install.php?m=index&a=setconf
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+
+[ 2014-10-05T15:11:18+08:00 ] 127.0.0.1 /install.php?m=index&a=install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002164s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033256s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001825s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003934s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003743s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014247s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004589s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004764s ]
+
+[ 2014-10-05T15:11:21+08:00 ] 127.0.0.1 /install.php?m=index&a=finish_done
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+
+[ 2014-10-05T15:11:28+08:00 ] 127.0.0.1 /install.php?m=index&a=finish
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036318s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001669s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003007s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002512s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002968s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011696s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003532s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003668s ]
+
+[ 2014-10-05T15:37:49+08:00 ] 127.0.0.1 /install.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026237s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003634s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001201s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000577s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006778s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001434s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001553s ]
+
+[ 2014-10-05T15:38:01+08:00 ] 127.0.0.1 /install.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001872s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034528s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000946s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001555s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000653s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004498s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001330s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2014-10-05T15:38:04+08:00 ] 127.0.0.1 /install.php?m=index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+NOTIC: 建议使用I方法替代_post
+
+[ 2014-10-05T15:38:04+08:00 ] 127.0.0.1 /install.php?m=index&a=check
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003236s ]
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in D:\php\htdocs\install\Lib\Action\indexAction.class.php on line 70 and defined D:\php\htdocs\install\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path D:\php\htdocs\install\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path D:\php\htdocs\install\Lib\ORG\Dir.class.php 第 39 行.
+
+[ 2014-10-05T15:38:05+08:00 ] 127.0.0.1 /install.php?m=index&a=setconf
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001799s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036430s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000743s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001207s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000624s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003824s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001332s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001438s ]
+
+[ 2014-10-05T15:38:20+08:00 ] 127.0.0.1 /install.php?m=index&a=setconf
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+
+[ 2014-10-05T15:38:20+08:00 ] 127.0.0.1 /install.php?m=index&a=install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064220s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.012145s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.012624s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000839s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027323s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001423s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001543s ]
+
+[ 2014-10-05T15:38:23+08:00 ] 127.0.0.1 /install.php?m=index&a=finish_done
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002287s ]
+
+[ 2014-10-05T15:38:45+08:00 ] 127.0.0.1 /install.php?m=index&a=finish
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025172s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000988s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000973s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000579s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004145s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001392s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001533s ]
+
+[ 2014-10-05T15:40:48+08:00 ] 127.0.0.1 /install.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004365s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041544s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001733s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003464s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002654s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010327s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002370s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002502s ]
+
+[ 2014-10-05T15:40:52+08:00 ] 127.0.0.1 /install.php?m=index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002437s ]
+NOTIC: 建议使用I方法替代_post
+
+[ 2014-10-05T15:40:53+08:00 ] 127.0.0.1 /install.php?m=index&a=check
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in D:\php\htdocs\install\Lib\Action\indexAction.class.php on line 70 and defined D:\php\htdocs\install\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path D:\php\htdocs\install\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path D:\php\htdocs\install\Lib\ORG\Dir.class.php 第 39 行.
+
+[ 2014-10-05T15:40:53+08:00 ] 127.0.0.1 /install.php?m=index&a=setconf
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002349s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037437s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002525s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001706s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002625s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009875s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003352s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003575s ]
+
+[ 2014-10-05T15:41:13+08:00 ] 127.0.0.1 /install.php?m=index&a=setconf
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+
+[ 2014-10-05T15:41:13+08:00 ] 127.0.0.1 /install.php?m=index&a=install
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003300s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038211s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000797s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000823s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000593s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003641s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001324s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001430s ]
+
+[ 2014-10-05T15:41:17+08:00 ] 127.0.0.1 /install.php?m=index&a=finish_done
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002894s ]
+
+[ 2014-10-05T15:41:20+08:00 ] 127.0.0.1 /install.php?m=index&a=finish
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009618s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041696s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000797s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000753s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000493s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008506s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001345s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001460s ]
+
